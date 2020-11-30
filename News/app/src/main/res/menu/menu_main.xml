@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rempeople.news.MainActivity">
+    <item
+        android:id="@+id/mi_sortListDate"
+        android:orderInCategory="100"
+        android:title="@string/sortWithDate"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mi_sortListAuthor"
+        android:orderInCategory="100"
+        android:title="@string/sortWithAuthor"
+        app:showAsAction="never" />
+</menu>
